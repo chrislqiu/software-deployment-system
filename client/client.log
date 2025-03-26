@@ -1,0 +1,2 @@
+2025-03-25 21:16:06,688 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: http://localhost:8000/api/token/
+2025-03-25 21:16:06,688 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: http://localhost:8000/api/token/
