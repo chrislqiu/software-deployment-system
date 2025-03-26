@@ -117,8 +117,8 @@ export const deploymentService = {
         return response.data;
     },
     createDeployment: async (data: {
-        package_id: number;
-        client_ids: number[];
+        package: number;
+        clients: number[];
         description: string;
         scheduled_for?: string;
     }) => {

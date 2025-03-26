@@ -80,8 +80,8 @@ export default function Deployments() {
     event.preventDefault();
     try {
       await deploymentService.createDeployment({
-        package_id: parseInt(newDeployment.package_id),
-        client_ids: newDeployment.client_ids.map((id) => parseInt(id)),
+        package: parseInt(newDeployment.package_id),
+        clients: newDeployment.client_ids.map((id) => parseInt(id)),
         description: newDeployment.description,
         scheduled_for: newDeployment.scheduled_for || undefined,
       });
