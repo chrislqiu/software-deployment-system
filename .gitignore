@@ -2,6 +2,8 @@
 backend/venv/
 *.pyc
 __pycache__/
+*.sqlite3
+.env
 
 # React
 frontend/node_modules/
@@ -10,6 +12,12 @@ frontend/build/
 # VS Code
 .vscode/
 *.code-workspace
+
+# Large files
+*.dmg
+*.zip
+*.tar.gz
+*.rar
 
 # Other
 .DS_Store
